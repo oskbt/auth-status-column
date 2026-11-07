@@ -1,0 +1,4 @@
+{
+  "extName": { "message": "Auth Status Column" },
+  "extDescription": { "message": "メール一覧にSPF・DKIMの認証結果を記号（◎ ○ △ ✕ ◇）で表示する列を追加します。ホバーで詳細を確認できます。" }
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "21.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "auth-columns@toshi.local",
+      "strict_min_version": "153.0",
+      "strict_max_version": "153.*"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "experiment_apis": {
+    "authCols": {
+      "schema": "api/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "authCols"
+          ]
+        ],
+        "script": "api/implementation.js"
+      }
+    }
+  },
+  "default_locale": "en",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  }
+}

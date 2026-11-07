@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "Auth Status Column"
+  },
+  "extDescription": {
+    "message": "Adds a column to the message list showing SPF/DKIM results at a glance (★ ✓ ? ☠ –). Hover for details."
+  }
+}

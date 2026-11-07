@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "authCols",
+    "functions": [
+      {
+        "name": "register",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
